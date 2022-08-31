@@ -8,7 +8,7 @@
 **Timeline:** The timeline for the research area is 2016-2018.
 
 To run the pipeline, please visit the `scripts` directory and run the files in order:
-1. `1.downloading.ipynb`: This notebook downloads the raw data into the `data/raw` directory.
+1. `1.Downloading.ipynb`: This notebook downloads the raw data into the `data/raw` directory.
 2. `2.Preprocessing.ipynb`: This notebook details all preprocessing steps for the yellow taxi data and outputs it to the `data/curated` directory.
 3. `3.Preprocessing for weather and merge.ipynb`: This notebook details all preprocessing steps for the external weather data and merge it with processed taxi data and outputs it to the `data/curated` directory.
 4. `4.Train test split.ipynb`: This notebook is used to conduct train test split for the merged data and conduct feature selection with F-test
